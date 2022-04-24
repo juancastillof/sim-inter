@@ -16,6 +16,11 @@ const memoriaInteres = (a,b) => a + b;
 const capitalPorMes = (a,b) => a * b;
 const interesElevado = (a,b) => a ** b;
 
+/* Recargar Navegador */
+function recargarNavegador() {
+    window.location.reload();
+  }
+
 while (opcion < 0 && opcion > 5);{
         switch (opcion) {
             case 1:
